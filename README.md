@@ -1,5 +1,10 @@
 # Unlocking Custom Document 🗎 Conversations 💬 with Langchain 🦜 and the Hugging Face API 🤗
 
+## Architecture Diagram :
+---
+
+![Architecture Diagram](arct.jpg "Architecture Diagram")
+
 ## Note :
 ---
 
