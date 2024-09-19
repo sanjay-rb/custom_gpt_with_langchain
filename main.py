@@ -2,6 +2,11 @@
 # # Unlocking Custom Document 🗎 Conversations 💬 with Langchain 🦜 and the Hugging Face API 🤗
 
 # %% [markdown]
+# ## Architecture Diagram :
+# 
+# ![Architecture Diagram](arct.jpg "Architecture Diagram")
+
+# %% [markdown]
 # ## Note :
 # - The following `10 steps` are crucial for constructing a custom chat-oriented GPT based on the chosen document.
 # - The runtime of each cell will be determined by the system you are using.
@@ -96,13 +101,13 @@ search_result = vectorstore.similarity_search(query=query, k=2)
 print(search_result) # return 2 documents by setting k=2
 
 # %% [markdown]
-# ## Step 9: Creating a Large Language Model (LLM) with HuggingFace's `google/flan-t5-xxl`
+# ## Step 9: Creating a Large Language Model (LLM) with HuggingFace's `google/flan-t5-large`
 
 # %%
 from langchain.llms import HuggingFaceHub
 
 llm = HuggingFaceHub(
-    repo_id="google/flan-t5-xxl",
+    repo_id="google/flan-t5-large",
     model_kwargs={
         "temperature": 0.5, # How innovative this model can be?  0=>None 1=>Very high innovative
     }
@@ -171,5 +176,8 @@ query = "Under Cover 11 (Tax) What is insured?"
 result = qa({"question": query, "chat_history": chat_history})
 print("Human Question :", result['question'])
 print("AI Answer :", result['answer'])
+
+# %%
+
 
 
