@@ -1,17 +1,19 @@
 ﻿"weight";"word";"color";"url"
-"25";"Conversation";"";""
-"25";"Copilot";"";""
-"25";"Gemini";"";""
-"25";"GenAI";"";""
-"25";"Generative AI";"";""
-"25";"HuggingFace";"";""
-"25";"LangChain";"";""
-"25";"LLM";"";""
-"25";"OpenAI";"";""
-"25";"Prompt";"";""
-"25";"Prompt Engineering";"";""
-"25";"Python";"";""
-"25";"RAG";"";""
-"25";"Retrieval";"";""
-"25";"Text";"";""
-"25";"Ventor Store";"";""
+"25";"Conversation";;
+"25";"Copilot";;
+"25";"Gemini";;
+"25";"GenAI";;
+"25";"Generative AI";;
+"25";"HuggingFace";;
+"25";"LangChain";;
+"25";"LLM";;
+"25";"OpenAI";;
+"25";"Prompt";;
+"25";"Prompt Engineering";;
+"25";"Python";;
+"25";"RAG";;
+"25";"Retrieval";;
+"25";"Text";;
+"25";"Ventor Store";;
+"25";"Embedding";;
+"25";"PKL";;
