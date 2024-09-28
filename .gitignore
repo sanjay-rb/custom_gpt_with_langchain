@@ -1,2 +1,3 @@
 /venv
 /vectorstore.pkl
+/hugging_face_cache
